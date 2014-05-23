@@ -36,6 +36,9 @@
       <artifactId>plf-extensions-manager</artifactId>
     </dependency>
   </dependencies>
+  <properties>
+    <timestamp>${maven.build.timestamp}</timestamp>
+  </properties>
   <build>
     <plugins>
       <plugin>
